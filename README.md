@@ -16,10 +16,12 @@ sudo apt-get install lib32stdc++6
 ......
 
 - Toochain
+
 You also need musl-1.1.11 toolchain, which can be obtained from dd-wrt ftp:
 ftp://ftp.dd-wrt.com/toolchains/
 
 - Build system: 
+
 Ubuntu 14.04 LTS (32/64bit)、Debain 7/8 (32/64bit)、openSUSE
 
 - Build target(armv7)
