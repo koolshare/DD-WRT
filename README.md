@@ -7,7 +7,8 @@
 # Compile
 
 - Environment
-**(ubuntu\debain)**
+
+**(ubuntu\debain):**
 
 sudo apt-get install build-essential gcc g++ gengetopt binutils cmake bzip2 flex bison make automake automake1.9 automake1.11 autoconf gettext texinfo unzip sharutils subversion libncurses5-dev zlib1g-dev libglib2.0-dev patch pkg-config rsync libtool sed wget
 sudo apt-get install lib32stdc++6
