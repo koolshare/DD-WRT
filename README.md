@@ -25,11 +25,17 @@ sudo apt-get install lib32stdc++6
 You also need musl-1.1.11 toolchain, which can be obtained from dd-wrt ftp:
 ftp://ftp.dd-wrt.com/toolchains/
 
-* Build system: 
+* Build
+
+```
+./make_armv7.sh
+```
+
+# Build system: 
 
 Ubuntu 14.04 LTS (32/64bit)、Debain 7/8 (32/64bit)、openSUSE
 
-* Build target(armv7)
+# Build target(armv7)
 
 ASUS、NETGEAR、D-LINK、TP-LINK、BUFFALO、TRENDNET、LINKSYS
 
