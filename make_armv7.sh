@@ -7,9 +7,9 @@ DEVDIR=/home/houzi/DD-WRT
 GCCARM=/home/houzi/toolchain/toolchains/toolchain-arm_cortex-a9_gcc-5.2.0_musl-1.1.11_eabi/bin
 #REVISION="29846M" # redefined, just default value
 KERNELVERSION="3.10" # 3.10 stable, 4.4 experimental
-#export PATH=$GCCARM:$PATH
-#export PATH=/home/houzi/toolchain/toolchains/toolchain-arm_cortex-a9_gcc-5.2.0_musl-1.1.11_eabi/bin:$PATH
-#export ARCH=arm
+export PATH=$GCCARM:$PATH
+export PATH=/home/houzi/toolchain/toolchains/toolchain-arm_cortex-a9_gcc-5.2.0_musl-1.1.11_eabi/bin:$PATH
+export ARCH=arm
 
 cd $DEVDIR
 #REVISION=`git log --grep git-svn-id -n 1|grep -i dd-wrt|awk '{print $2}'|awk -F'@' '{print $2}'`
